@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     leistung += 0
 })
 input.onButtonPressed(Button.AB, function () {
-    kitronik_motor_driver.motorOn(kitronik_motor_driver.Motors.Motor1, kitronik_motor_driver.MotorDirection.Reverse, 30)
+    kitronik_motor_driver.motorOn(kitronik_motor_driver.Motors.Motor1, kitronik_motor_driver.MotorDirection.Forward, 30)
 })
 input.onButtonPressed(Button.B, function () {
     kitronik_motor_driver.motorOff(kitronik_motor_driver.Motors.Motor1)
